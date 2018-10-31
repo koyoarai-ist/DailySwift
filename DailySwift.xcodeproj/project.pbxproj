@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1F9415812C5FE921B39822F2 /* Pods_DailySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 592F1F9067A7B9D438765372 /* Pods_DailySwift.framework */; };
+		718335D02189BD92003F1468 /* InitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718335CF2189BD92003F1468 /* InitViewController.swift */; };
+		718335D32189C13D003F1468 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718335D22189C13D003F1468 /* FirstViewController.swift */; };
+		718335D52189C14F003F1468 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718335D42189C14F003F1468 /* SecondViewController.swift */; };
+		718335D72189C15B003F1468 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718335D62189C15B003F1468 /* ThirdViewController.swift */; };
+		718335D92189C23E003F1468 /* InitPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718335D82189C23E003F1468 /* InitPageViewController.swift */; };
 		71F96A132189B4A000ACF343 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F96A122189B4A000ACF343 /* AppDelegate.swift */; };
 		71F96A152189B4A000ACF343 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F96A142189B4A000ACF343 /* ViewController.swift */; };
 		71F96A182189B4A000ACF343 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F96A162189B4A000ACF343 /* Main.storyboard */; };
@@ -42,6 +47,11 @@
 		528DB3432DCE0C5BC3CBFF04 /* Pods_DailySwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DailySwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E53BF88C60F15B72AC2717 /* Pods-DailySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailySwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-DailySwift/Pods-DailySwift.release.xcconfig"; sourceTree = "<group>"; };
 		592F1F9067A7B9D438765372 /* Pods_DailySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DailySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		718335CF2189BD92003F1468 /* InitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitViewController.swift; sourceTree = "<group>"; };
+		718335D22189C13D003F1468 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		718335D42189C14F003F1468 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		718335D62189C15B003F1468 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		718335D82189C23E003F1468 /* InitPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitPageViewController.swift; sourceTree = "<group>"; };
 		71F96A0F2189B4A000ACF343 /* DailySwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailySwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71F96A122189B4A000ACF343 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71F96A142189B4A000ACF343 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +99,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		718335D12189C127003F1468 /* InitPageView */ = {
+			isa = PBXGroup;
+			children = (
+				718335D22189C13D003F1468 /* FirstViewController.swift */,
+				718335D42189C14F003F1468 /* SecondViewController.swift */,
+				718335D62189C15B003F1468 /* ThirdViewController.swift */,
+				718335D82189C23E003F1468 /* InitPageViewController.swift */,
+			);
+			path = InitPageView;
+			sourceTree = "<group>";
+		};
 		71F96A062189B4A000ACF343 = {
 			isa = PBXGroup;
 			children = (
@@ -114,12 +135,14 @@
 		71F96A112189B4A000ACF343 /* DailySwift */ = {
 			isa = PBXGroup;
 			children = (
+				718335D12189C127003F1468 /* InitPageView */,
 				71F96A122189B4A000ACF343 /* AppDelegate.swift */,
 				71F96A142189B4A000ACF343 /* ViewController.swift */,
 				71F96A162189B4A000ACF343 /* Main.storyboard */,
 				71F96A192189B4A000ACF343 /* Assets.xcassets */,
 				71F96A1B2189B4A000ACF343 /* LaunchScreen.storyboard */,
 				71F96A1E2189B4A000ACF343 /* Info.plist */,
+				718335CF2189BD92003F1468 /* InitViewController.swift */,
 			);
 			path = DailySwift;
 			sourceTree = "<group>";
@@ -358,6 +381,11 @@
 			files = (
 				71F96A152189B4A000ACF343 /* ViewController.swift in Sources */,
 				71F96A132189B4A000ACF343 /* AppDelegate.swift in Sources */,
+				718335D02189BD92003F1468 /* InitViewController.swift in Sources */,
+				718335D52189C14F003F1468 /* SecondViewController.swift in Sources */,
+				718335D72189C15B003F1468 /* ThirdViewController.swift in Sources */,
+				718335D92189C23E003F1468 /* InitPageViewController.swift in Sources */,
+				718335D32189C13D003F1468 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,7 +564,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KJ9D2SY4N6;
 				INFOPLIST_FILE = DailySwift/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = testApp.DailySwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -552,7 +583,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KJ9D2SY4N6;
 				INFOPLIST_FILE = DailySwift/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = testApp.DailySwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -569,7 +603,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KJ9D2SY4N6;
 				INFOPLIST_FILE = DailySwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = testApp.DailySwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -587,7 +625,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KJ9D2SY4N6;
 				INFOPLIST_FILE = DailySwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = testApp.DailySwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -604,7 +646,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KJ9D2SY4N6;
 				INFOPLIST_FILE = DailySwiftUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = testApp.DailySwiftUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -621,7 +667,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KJ9D2SY4N6;
 				INFOPLIST_FILE = DailySwiftUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = testApp.DailySwiftUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
